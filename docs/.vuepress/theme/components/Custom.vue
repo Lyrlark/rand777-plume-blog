@@ -2,11 +2,11 @@
   <div class="container">
     <canvas ref="canvasRef"></canvas>
     <div class="head-social">
-      <a href="https://github.com/zhenghaoyang24" target="_blank" class="head-social-btn">
+      <a href="https://github.com/LyrLark" target="_blank" class="head-social-btn">
         <icon name="mdi:github"/>
       </a>
       <router-link to="/blog/" class="head-social-avatar"><img src="/avatar.jpg" alt="avatar"></router-link>
-      <a href="mailto:zhenghaoyang24@foxmail.com" target="_blank" class="head-social-btn">
+      <a href="mailto:rand777@pguide.studio" target="_blank" class="head-social-btn">
         <icon class="head-social-btn" name="ic:baseline-email"></icon>
       </a>
     </div>
@@ -17,8 +17,8 @@
           <template #motto>
             <slot name="motto">
               <p class="about-me-card-title-normal">座右铭</p>
-              <p class="about-me-card-text-big">老师，</p>
-              <p class="about-me-card-text-big about-me-card-text-color">我太想进步了。</p>
+              <p class="about-me-card-text-big about-me-card-text-color">华强爱买瓜，</p>
+              <p class="about-me-card-text-big about-me-card-text-color" align="right">不爱吃牛肉。</p>
             </slot>
           </template>
         </AboutMeText>

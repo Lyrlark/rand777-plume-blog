@@ -12,9 +12,9 @@
 import { ref, onMounted } from 'vue';
 import * as echarts from 'echarts';
 
-const chartRef = ref(null);
 
-// 示例数据
+
+const chartRef = ref(null);
 const lifeData = [
   { name: '学习', value: (0.1).toFixed(2) },
   { name: '游戏', value: (0.1).toFixed(2) },
@@ -34,10 +34,27 @@ onMounted(() => {
       {
         name: '我的日常',
         type: 'pie',
-        radius: ['50%', '80%'],
-        center: ['50%', '60%'],
-        startAngle: 180,
-        endAngle: 360,
+      radius: ['40%', '70%'],
+      avoidLabelOverlap: false,
+      itemStyle: {
+        borderRadius: 10,
+        borderColor: '#fff',
+        borderWidth: 2
+      },
+      label: {
+        show: false,
+        position: 'center'
+      },
+      emphasis: {
+        label: {
+          show: true,
+          fontSize: 40,
+          fontWeight: 'bold'
+        }
+      },
+      labelLine: {
+        show: false
+      },
         data: lifeData
       }
     ]

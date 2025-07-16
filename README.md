@@ -1,8 +1,10 @@
 # 个人博客
 
-博客主题为 [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+博客主题为 [vuepress-theme-plume](https://theme-plume.vuejs.press/)，修改自 [Hoey](https://zhenghaoyang.cn/) 的博客
 
-网址：https://zhenghaoyang.cn/
+网址：https://www.rand777.space
+
+> 重定向到https://blog.rand777.space
 
 博客主页为自定义页面，若你也在使用这个博客主题并想参考本博客主页，可查看以下详细说明：
 

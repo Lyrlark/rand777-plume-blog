@@ -6,7 +6,7 @@ import FRIENDS from '../data/friends.json'
   <div class="about-me-card-bg vp-blog-post-item about-me-friends">
     <p class="about-me-card-title-normal">友情链接</p>
     <div class="about-me-friends-title">
-      <p class="about-me-card-text-big about-me-card-text-color">我的好友们</p>
+      <p class="about-me-card-text-big about-me-card-text-color">好友们的博客</p>
       <router-link to="/more/friends/">
         <icon name="game-icons:three-friends"/>
         所有好友

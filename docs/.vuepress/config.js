@@ -8,17 +8,6 @@ export default defineUserConfig({
     createTime: true, // 是否生成创建时间
     title: true, // 是否生成标题
   },
-  head: [
-      ['meta', { name: 'referrer', content: 'no-referrer' }],
-      ['script', { type: 'text/javascript' }, `
-        (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "qnwy9r0rp7");
-      `]
-
-  ],
   base: '/',
   lang: 'zh-CN',
   title: 'rand777',
@@ -29,14 +18,14 @@ export default defineUserConfig({
   theme: plumeTheme({
 
     /**
-     * markdown 曾强
+     * markdown 配置
      */
     markdown:{
       imageSize: true, // 图片优化 'local（本地图片）' | 'all（所有图片）'
       demo: true, // 启用新的代码演示功能
-      // oldDemo:true,
       markmap:true, // 启用 Markmap 图表嵌入语法
       codeTree: true, // 启用代码树
+      plot: true // 隐秘文本
     },
 
     /**
@@ -56,7 +45,7 @@ export default defineUserConfig({
       lineNumbers: true,  // 启用行号 https://theme-plume.vuejs.press/guide/code/features/#%E4%BB%A3%E7%A0%81%E8%A1%8C%E5%8F%B7
     },
     // 添加您的部署域名
-    hostname: 'https://zhenghaoyang.cn',
+    hostname: 'https://blog.rand777.space',
     plugins: {
     },
   }),

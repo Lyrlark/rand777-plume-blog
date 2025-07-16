@@ -9,6 +9,7 @@ export const navbar = defineNavbarConfig([
             {text: 'Web前端', link: '/web/start/', icon: 'logos:web-dev-icon'},
             // {text: 'Android', link: '/android/start/', icon: 'material-icon-theme:android'},
             {text: '备忘录', link: '/memo/start/', icon: 'emojione:memo'},
+            {text: '每日英语', link: '/memo/everyday-english/',icon: 'icon-park-outline:english'}
         ],
         icon: 'ic:outline-note-alt',
         activeMatch: '^/notes/',

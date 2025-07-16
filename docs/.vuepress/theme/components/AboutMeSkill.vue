@@ -41,7 +41,7 @@ const technology = ref([
   { type: 'Python', icon: 'logos:python' },
   { type: 'C++', icon: 'devicon:cplusplus' },
   { type: 'Java', icon: 'devicon:java' },
-  { type: 'Shell', icon: 'devicon:shell' },
+  { type: 'Shell', icon: 'catppuccin:powershell' },
   { type: 'GraphQL', icon: 'logos:graphql' },
   { type: 'Redis', icon: 'devicon:redis' },
   { type: 'MongoDB', icon: 'devicon:mongodb' },

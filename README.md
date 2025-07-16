@@ -6,6 +6,16 @@
 
 > 重定向到https://blog.rand777.space
 
+## 安装
+
+```sh
+pnpm i
+```
+
+```shell
+pnpm run docs:dev
+```
+
 博客主页为自定义页面，若你也在使用这个博客主题并想参考本博客主页，可查看以下详细说明：
 
 ### 配置

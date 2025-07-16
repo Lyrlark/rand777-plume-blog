@@ -21,8 +21,8 @@ export default defineUserConfig({
   ],
   base: '/',
   lang: 'zh-CN',
-  title: 'Hoey',
-  description: 'Hoey\' blog.',
+  title: 'rand777',
+  description: 'rand777\' blog.',
 
   bundler: viteBundler(),
 

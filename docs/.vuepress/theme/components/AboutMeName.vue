@@ -5,8 +5,8 @@
 <template>
   <div class="about-me-name">
     <p>你好，很高兴认识你！👋</p>
-    <p class="about-me-card-text-big">你可以叫我 Hoey .</p>
-    <p>是一名爱幻想的幻想家，更是一名实干家。</p>
+    <p class="about-me-card-text-big">你可以叫我 rand777 .</p>
+    <p>医学警告：熬夜锻炼，会得到一具健康的尸体。</p>
   </div>
 </template>
 

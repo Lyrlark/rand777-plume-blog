@@ -16,8 +16,8 @@ permalink: /more/friends/
 ### _我的友链信息_
 
 ```
-我的名称: Hoey
-网站地址: https://zhenghaoyang.cn/
+我的名称: rand777
+网站地址: https://blog.rand777.space
 描述: 老师，我太想进步了。
 头像: https://zhenghaoyang.cn/avatar.jpg
 站点图片: https://zhenghaoyang.cn/siteshot.png

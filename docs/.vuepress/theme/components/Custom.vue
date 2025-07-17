@@ -37,10 +37,12 @@
         <AboutMeText>
           <template #motto>
             <slot name="motto">
-              <p class="about-me-card-title-normal">追求</p>
-              <p class="about-me-card-text-big about-me-card-text-soft">用心去<span style="color: #3a5ccc">感受</span>
-              </p>
-              <p class="about-me-card-text-big">用热爱去<span style="color: #d53737">创造</span></p>
+              <p class="about-me-card-title-normal">提交记录</p>
+              <picture>
+  <source media="(prefers-color-scheme: light),(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake-dark.svg" class="source-dark">
+  <source media="not all" srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg" class="source-light">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg" style="visibility: visible; max-width: 100%;">
+</picture>
             </slot>
           </template>
         </AboutMeText>

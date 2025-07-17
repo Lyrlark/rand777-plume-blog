@@ -11,7 +11,8 @@
       <a href="https://github.com/LyrLark" target="_blank" class="head-social-btn">
         <icon name="mdi:github"/>
       </a>
-      <router-link to="/blog/" class="head-social-avatar"><img src="/avatar.jpg" alt="avatar"></router-link>
+      <router-link to="/blog/" class="head-social-avatar"><img src="/avatar.jpg" alt="avatar">
+      </router-link>
       <a href="mailto:rand777@pguide.studio" target="_blank" class="head-social-btn">
         <icon class="head-social-btn" name="ic:baseline-email"></icon>
       </a>
@@ -24,7 +25,8 @@
             <slot name="motto">
               <p class="about-me-card-title-normal">座右铭</p>
               <p class="about-me-card-text-big about-me-card-text-color">华强爱买瓜，</p>
-              <p class="about-me-card-text-big about-me-card-text-color" align="right">不爱吃牛肉。</p>
+              <p class="about-me-card-text-big about-me-card-text-color" align="right">
+                不爱吃牛肉。</p>
             </slot>
           </template>
         </AboutMeText>
@@ -37,10 +39,18 @@
         <AboutMeText>
           <template #motto>
             <slot name="motto">
-              <p class="about-me-card-title-normal">追求</p>
-              <p class="about-me-card-text-big about-me-card-text-soft">用心去<span style="color: #3a5ccc">感受</span>
-              </p>
-              <p class="about-me-card-text-big">用热爱去<span style="color: #d53737">创造</span></p>
+              <p class="about-me-card-title-normal">提交记录</p>
+              <picture>
+                <source media="(prefers-color-scheme: light),(prefers-color-scheme: dark)"
+                        srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake-dark.svg"
+                        class="source-dark">
+                <source media="not all"
+                        srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg"
+                        class="source-light">
+                <img alt="github contribution grid snake animation"
+                     src="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg"
+                     style="visibility: visible; max-width: 100%;">
+              </picture>
             </slot>
           </template>
         </AboutMeText>
@@ -112,7 +122,7 @@ canvas {
   }
 }
 
-.card-content{
+.card-content {
   margin-top: 20px;
   display: grid;
   gap: 20px;
@@ -121,6 +131,7 @@ canvas {
     flex-direction: column;
   }
 }
+
 .grid-row-3-2 {
   grid-template-columns: 3fr 2fr;
 }

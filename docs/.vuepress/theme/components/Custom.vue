@@ -38,17 +38,20 @@
       <div class="card-content grid-row-1-1">
         <AboutMeText>
           <template #motto>
-            <picture>
-              <source media="(prefers-color-scheme: light),(prefers-color-scheme: dark)"
-                      srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake-dark.svg"
-                      class="source-dark">
-              <source media="not all"
-                      srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg"
-                      class="source-light">
-              <img alt="github contribution grid snake animation"
-                   src="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg"
-                   style="visibility: visible; max-width: 100%;">
-            </picture>
+            <slot name="motto">
+              <p class="about-me-card-title-normal">提交记录</p>
+              <picture>
+                <source media="(prefers-color-scheme: light),(prefers-color-scheme: dark)"
+                        srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake-dark.svg"
+                        class="source-dark">
+                <source media="not all"
+                        srcset="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg"
+                        class="source-light">
+                <img alt="github contribution grid snake animation"
+                     src="https://raw.githubusercontent.com/Lyrlark/Lyrlark/output/github-contribution-grid-snake.svg"
+                     style="visibility: visible; max-width: 100%;">
+              </picture>
+            </slot>
           </template>
         </AboutMeText>
         <AboutMeCharacter/>

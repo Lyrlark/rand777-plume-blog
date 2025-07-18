@@ -6,10 +6,8 @@ export const navbar = defineNavbarConfig([
     {
         text: '笔记',
         items: [
-            {text: 'Web前端', link: '/web/start/', icon: 'logos:web-dev-icon'},
-            // {text: 'Android', link: '/android/start/', icon: 'material-icon-theme:android'},
-            {text: '备忘录', link: '/memo/start/', icon: 'emojione:memo'},
-            {text: '每日英语', link: '/memo/everyday-english/',icon: 'icon-park-outline:english'}
+    {text: '每日英语', link: '/memo/everyday-english/',icon: 'icon-park-outline:english'},
+
         ],
         icon: 'ic:outline-note-alt',
         activeMatch: '^/notes/',
@@ -17,8 +15,9 @@ export const navbar = defineNavbarConfig([
     {
         text: '更多',
         items: [
+            // {text: '关于博客', link: '/more/about-blog/', icon: 'material-symbols:person-outline'}, TODO: 需要更新下博客页结构
             {text: '友情链接', link: '/more/friends/', icon: 'icon-park:friends-circle'},
-            {text: '我的项目', link: '/more/projects/', icon: 'material-icon-theme:folder-project-open'},
+            {text: '开源项目', link: '/more/projects/', icon: 'material-icon-theme:folder-project-open'},
             {text: '网址导航', link: '/more/sites-collect/', icon: 'logos:sitepoint'},
         ],
         icon: 'mingcute:more-3-fill',

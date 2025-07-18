@@ -1,17 +1,7 @@
 import {defineNoteConfig, defineNotesConfig} from 'vuepress-theme-plume'
 
-const noteWeb = defineNoteConfig({
-        dir: 'web',
-        link: '/web/',
-        sidebar: 'auto',
-    },
-)
-const noteAndroid = defineNoteConfig({
-        dir: 'android',
-        link: '/android/',
-        sidebar: 'auto',
-    },
-)
+// TODO: 配置路由规则及永久链接
+
 const noteMemo = defineNoteConfig({
         dir: 'memo',
         link: '/memo/',
@@ -28,5 +18,5 @@ const noteMore = defineNoteConfig({
 export const notes = defineNotesConfig({
     dir: 'notes',
     link: '/',
-    notes: [noteWeb, noteAndroid, noteMemo, noteMore],
+    notes: [noteMemo, noteMore],
 })

@@ -2,12 +2,7 @@
   <div class="container">
     <canvas ref="canvasRef"></canvas>
     <div class="head-social">
-      <a href="https://juejin.cn/user/2870165373455783" target="_blank" class="head-social-btn">
-        <icon name="simple-icons:juejin"/>
-      </a>
-      <a href="https://gitee.com/rand777" target="_blank" class="head-social-btn">
-        <icon name="simple-icons:gitee"/>
-      </a>
+
       <a href="https://github.com/LyrLark" target="_blank" class="head-social-btn">
         <icon name="mdi:github"/>
       </a>

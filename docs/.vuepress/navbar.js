@@ -23,8 +23,6 @@ export const navbar = defineNavbarConfig([
         items: [
             // {text: '关于博客', link: '/more/about-blog/', icon: 'material-symbols:person-outline'}, TODO: 需要更新下博客页结构
             {text: '友情链接', link: '/more/friends/', icon: 'fluent:people-16-filled'},
-
-            {text: '网址导航', link: '/more/sites-collect/', icon: 'logos:sitepoint'},
         ],
         icon: 'mingcute:more-3-fill',
         activeMatch: '^/more/',

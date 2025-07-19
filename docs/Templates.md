@@ -6,6 +6,8 @@ permalink: /templates/
 
 这里有常用的组件和语法糖的使用示例。
 
+@[code-tree title="Project Name" height="400px" entry="filepath"](dir_path)
+
 | 单词 | 音标 | 词性 | 中文释义 | 例句 | 记忆技巧 |
 |----|----|----|------|----|------|
 |    |    |    |      |    |      |

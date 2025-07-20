@@ -38,7 +38,7 @@ permalink: /more/projects/
 
 <RepoCard repo="CQMUA/server-center"></RepoCard>
 
-### @CQMUA/pixel-university-town
+[//]: # (### @CQMUA/pixel-university-town)
 
 <RepoCard repo="CQMUA/pixel-university-town"></RepoCard>
 

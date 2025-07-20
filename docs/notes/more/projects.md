@@ -9,9 +9,11 @@ permalink: /more/projects/
 
 [//]: # (TODO: 添加更多开源项目)
 
-### @LyrLark/pguide-docs<span><Badge>Markdown</Badge><Badge type="warning" text="VuePress2.0" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="MPL2.0" /></span>
+---
 
+### @LyrLark/PGuide-Docs
 
+<span><Badge>Markdown</Badge><Badge type="warning" text="VuePress2.0" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="MPL2.0" /></span>
 
 - 国内站点：[https://docs.pguide.cloud](https://docs.pguide.cloud)
 - 国际站点：[https://docs.pguide.studio](https://docs.pguide.studio)
@@ -36,8 +38,32 @@ permalink: /more/projects/
 
 <RepoCard repo="CQMUA/server-center"></RepoCard>
 
+### @CQMUA/pixel-university-town
+
+<RepoCard repo="CQMUA/pixel-university-town"></RepoCard>
+
 ---
 
 ### @DingGe3/oh-my-api   
 
 <RepoCard repo="DingGe3/Oh-My-Api"></RepoCard>
+
+[//]: # (### @CQMUtug/cqmu-theis)
+
+[//]: # ()
+[//]: # (<RepoCard repo="CQMUtug/cqmu-theis"></RepoCard>)
+
+[//]: # ()
+[//]: # (### @LoongTeX/docs)
+
+[//]: # ()
+[//]: # (### @CQMUio/io-whatever)
+
+[//]: # ()
+[//]: # (### @CQMULUG/cqmu-mirror-frontend)
+
+[//]: # ()
+[//]: # (### @CQMULUG/cqmu-mirror-backend)
+
+[//]: # ()
+[//]: # (### @PGuideDev/smart-tmc)

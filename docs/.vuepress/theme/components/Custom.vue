@@ -6,7 +6,7 @@
       <a href="https://github.com/LyrLark" target="_blank" class="head-social-btn">
         <icon name="mdi:github"/>
       </a>
-      <router-link to="/blog/" class="head-social-avatar"><img src="/avatar.jpg" alt="avatar">
+      <router-link to="/blog/" class="head-social-avatar"><img src="https://avatars.githubusercontent.com/u/91131723?s=400&u=cc52bb8ae67e4a4706570ac84399dc7519cfa749&v=4" alt="avatar">
       </router-link>
       <a href="mailto:rand777@pguide.studio" target="_blank" class="head-social-btn">
         <icon class="head-social-btn" name="ic:baseline-email"></icon>
@@ -18,10 +18,10 @@
         <AboutMeText>
           <template #motto>
             <slot name="motto">
-              <p class="about-me-card-title-normal">座右铭</p>
-              <p class="about-me-card-text-big about-me-card-text-color">华强爱买瓜，</p>
+              <p class="about-me-card-title-normal">我是🐧</p>
+              <p class="about-me-card-text-big about-me-card-text-color">摇摇晃晃，</p>
               <p class="about-me-card-text-big about-me-card-text-color" align="right">
-                不爱吃牛肉。</p>
+                也能到达目的地。</p>
             </slot>
           </template>
         </AboutMeText>

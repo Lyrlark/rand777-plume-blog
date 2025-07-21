@@ -11,7 +11,7 @@ export default defineThemeConfig({
   docsDir: 'docs',
   appearance: 'true',
   profile: {
-    avatar: 'avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/91131723?s=400&u=cc52bb8ae67e4a4706570ac84399dc7519cfa749&v=4',
     name: 'rand777',
     description: '',
     circle: true,

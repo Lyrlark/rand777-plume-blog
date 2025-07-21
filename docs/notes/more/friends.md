@@ -18,7 +18,7 @@ permalink: /more/friends/
 ```
 我的名称: rand777
 网站地址: https://blog.rand777.space
-描述: 老师，我太想进步了。
+描述: 摇摇晃晃，也能到达目的地。
 头像: https://blog.rand777.space/avatar.jpg
 站点图片: https://blog.rand777.space/siteshot.png
 ```

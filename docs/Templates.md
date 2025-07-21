@@ -8,9 +8,7 @@ permalink: /templates/
 
 @[code-tree title="Project Name" height="400px" entry="filepath"](dir_path)
 
-| 单词 | 音标 | 词性 | 中文释义 | 例句 | 记忆技巧 |
-|----|----|----|------|----|------|
-|    |    |    |      |    |      |
+// [!code focus]
 
 <span><Badge>
 LANGUAGE</Badge><Badge type="warning" text="FRAMEWORK" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span>

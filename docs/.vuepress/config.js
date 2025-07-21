@@ -29,6 +29,7 @@ export default defineUserConfig({
             plot: true, // 隐秘文本
             audioReader: true, // 启用音频阅读器
             mermaid: true, // 启用 Mermaid 图表
+            annotation: true // 启用内容注释功能
         },
 
         /**
